@@ -1,0 +1,163 @@
+*	{box-sizing: border-box;}
+
+body {
+	margin: 0 auto;
+	background-color: grey;
+	padding: 10px;
+}
+
+.row {
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.row::before, .row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+}
+
+.nav {
+    height: 60vh;
+    background-color: blue;
+}
+
+.special {
+	max-height: 200px;	
+}
+
+li {
+	color: white;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 100%;
+}
+
+[class*="col-"] {
+	min-height: 20px;
+	margin: 0 auto;
+	float: left;
+	padding: 5px 10px;
+	text-align: justify;
+	overflow: auto;
+}
+
+footer {
+	background-image: url("https://static.pexels.com/photos/386018/pexels-photo-386018.jpeg");
+	color: white;
+}
+
+.col-1 {
+	width: 8.334%;
+	background-color: green;
+}
+
+.col-2 {
+	width: 16.667%;
+/*	background-color: blue;*/
+}
+
+.col-3 {
+	width: 25%;
+/*	background-color: red;*/
+}
+
+.col-4 {
+	width: 33.334%;
+/*	background-color: yellow;*/
+}
+
+.col-5 {
+	width: 41.667%;
+/*	background-color: gray;*/
+}
+
+.col-6 {
+	width: 50%;
+/*	background-color: orange;*/
+}
+
+.col-7 {
+	width: 58.334%;
+/*	background-color: black;*/
+}
+
+.col-8 {
+	width: 66.667%;
+/*	background-color: black;*/
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.334%;
+}
+
+.col-11 {
+	width: 91.667%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-offset-1 {
+	margin-left: 8.334%;
+}
+
+.col-offset-2 {
+	margin-left: 16.667%;
+}
+
+.col-offset-3 {
+	margin-left: 25%;
+}
+
+.col-offset-4 {
+	margin-left: 33.334%;
+}
+
+.col-offset-5 {
+	margin-left: 41.667%;
+}
+
+.col-offset-6 {
+	margin-left: 50%;
+}
+
+.col-offset-7 {
+	margin-left: 58.334%;
+}
+
+.col-offset-8 {
+	margin-left: 66.667%;
+}
+
+.col-offset-9 {
+	margin-left: 75%;
+}
+
+.col-offset-10 {
+	margin-left: 83.334%;
+}
+
+.col-offset-11 {
+	margin-left: 91.667%;
+}
